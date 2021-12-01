@@ -3,7 +3,7 @@ from telebot import types
 import psycopg2
 from week import weeker
 
-token = "2004875667:AAEhiVyoZfWObUeEg5oQA8SeeTvxYqAhdhA"
+token = "wow that's private"
 bot = telebot.TeleBot(token)
 conn = psycopg2.connect(database="schedule_db",
                         user="postgres",
